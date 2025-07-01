@@ -18,6 +18,11 @@
 14. Now repeat step 10-12 for v3 of data.
 
 
+git log --oneline
+git checkout <hash> - git checkout main
+dvc pull
+
+
 python -m venv .venv       # Create virtual env
 .\.venv\Scripts\activate   # Activate (Windows)
 pip install dvc            # Install inside venv
